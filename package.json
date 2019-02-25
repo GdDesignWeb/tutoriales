@@ -4,7 +4,8 @@
   "description": "Integrando React v18",
   "private": true,
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build:prod": "webpack --config webpack.config.js --mode=production",
+    "build:dev": "webpack --config webpack.config.js --mode=development"
   },
   "author": "https://github.com/gddesignweb",
   "license": "MIT",
