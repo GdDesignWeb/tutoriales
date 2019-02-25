@@ -2,9 +2,9 @@
   "name": "proyecto",
   "version": "0.0.1",
   "description": "Integrando React v18",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js"
   },
   "author": "https://github.com/gddesignweb",
   "license": "MIT",
